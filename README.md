@@ -82,59 +82,9 @@ All interactions are **real-time, secure, and responsive** across devices.
 - [Node.js](https://nodejs.org/en/)  
 - [npm](https://www.npmjs.com/)  
 
-**Clone Repository**
-
-```bash
-git clone https://github.com/YOUR_USERNAME/yoom.git
-cd yoom
-Install Dependencies
-
-npm install
 
 
-Set Up Environment Variables
 
-Create a .env file in the root:
-
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-
-NEXT_PUBLIC_STREAM_API_KEY=
-STREAM_SECRET_KEY=
-
-
-Replace with your Clerk and getstream credentials.
-
-Run the App
-
-npm run dev
-
-
-Open http://localhost:3000
- to view locally.
-
-🕸️ Assets & Code
-
-Global CSS: app/globals.css includes Tailwind directives and custom overrides for Stream and Clerk.
-
-Components: Reusable React components under components/
-
-Meeting Card Example:
-
-<MeetingCard
-  title="Team Sync"
-  date="Sep 12, 2025"
-  icon="/icons/meeting.svg"
-  buttonText="Join"
-  handleClick={() => console.log('Joining')}
-  link="https://yoom-link"
-/>
-
-
-Icons & Images: Stored in /public folder.
 
 🔗 Live Demo
 
