@@ -88,5 +88,11 @@ All interactions are **real-time, secure, and responsive** across devices.
 
 🔗 Live Demo
 
-Check out the app live on Vercel:
-https://your-vercel-link.vercel.app
+Check out the app live on Vercel:yoom-omega-nine.vercel.app
+
+
+
+
+
+
+
